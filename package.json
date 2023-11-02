@@ -1,0 +1,11 @@
+{
+  "name": "canvas",
+  "version": "1.0.0",
+  "description": "html canvas examples",
+  "main": "src/index.ts",
+  "repository": "https://github.com/joepasss/canvas",
+  "author": "joepasss",
+  "license": "MIT",
+  "private": false,
+  "type": "module"
+}
