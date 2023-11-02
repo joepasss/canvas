@@ -36,7 +36,6 @@
     "webpack-merge": "^5.10.0"
   },
   "scripts": {
-    "test": "NODE_OPTIONS='--import ./register-hooks.js' webpack --config ./webpack/webpack.common.config.ts",
     "dev": "NODE_OPTIONS='--import ./register-hooks.js' webpack serve --config ./webpack/webpack.dev.config.ts",
     "build": "NODE_OPTIONS='--import ./register-hooks.js' webpack --config ./webpack/webpack.prod.config.ts",
     "bundle-analyzer": "NODE_OPTIONS='--import ./register-hooks.js' webpack --config ./webpack/webpack.analyze.config.ts"
